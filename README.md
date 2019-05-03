@@ -5,13 +5,13 @@ Simple helper to get a string representation of ms
 ## Install
 
 ```bash
-npm i -S timespent
+npm i -S @danm/timespent
 ```
 
 ## Use
 
 ```javascript
-const { short }= require('timespent');
+import { short } from '@danm/timespent';
 
 // miliseconds
 short(500); // 1 ms
