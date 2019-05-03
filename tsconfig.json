@@ -1,20 +1,12 @@
 {
     "compilerOptions": {
         "module": "commonjs",
-        "esModuleInterop": true,
-        "target": "es2018",
+        "target": "ES6",
         "noEmitOnError": true,
         "declaration": true,
-        "resolveJsonModule": true,
         "moduleResolution": "node",
         "sourceMap": true,
-        "outDir": "lib",
-        "baseUrl": ".",
-        "paths": {
-            "*": [
-                "node_modules/*",
-            ]
-        },
+        "outDir": "lib"
     },
     "include": [
         "src/**/*"

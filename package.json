@@ -1,9 +1,9 @@
 {
-  "name": "timespent",
-  "version": "1.0.0",
+  "name": "@danm/timespent",
+  "version": "1.1.0",
   "description": "Convert a number of ms to a duration string",
   "main": "lib/index.js",
-  "types": "lib/imageHash.d.ts",
+  "types": "lib/index.d.ts",
   "scripts": {
     "watch": "npx jest --watch --coverage",
     "test": "npx jest",
@@ -27,7 +27,7 @@
     "eslint-config-airbnb-typescript": "^3.0.0",
     "eslint-plugin-import": "^2.17.2",
     "jest": "^24.0.0",
-    "typescript": "^3.3.1"
+    "typescript": "^3.4.5"
   },
   "author": "Daniel Morrison <daniel.morrison@bbc.co.uk>",
   "license": "MIT"
